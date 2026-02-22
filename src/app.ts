@@ -5,11 +5,19 @@ import healthRoutes from './routes/health.routes';
 import { errorHandler } from './middleware/error.middleware';
 
 /**
- * Configure Express application.
+ * Main application class to configure and initialize the Express server.
+ * 
+ * @internal
  */
 class App {
+  /**
+   * The Express application instance.
+   */
   public app: Application;
 
+  /**
+   * Initializes the application by setting up middlewares, routes, and error handlers.
+   */
   constructor() {
     this.app = express();
     this.setupMiddlewares();
@@ -17,33 +25,19 @@ class App {
     this.setupErrorHandlers();
   }
 
+  /**
+   * Configures standard Express middlewares.
+   */
   private setupMiddlewares(): void {
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
-    // Serve static files from the 'public' directory
     this.app.use(express.static(path.join(__dirname, '../public')));
   }
 
+  /**
+   * Configures API routes and static asset routes.
+   */
   private setupRoutes(): void {
-    // Root route with minimal SEO and favicon link
-    this.app.get('/', (req, res) => {
-      res.status(200).send(`
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <title>Qraft | QR Code Generator API</title>
-          <meta name="description" content="A simple, modular, and fast QR code generator API.">
-          <link rel="icon" type="image/svg+xml" href="/logo.svg">
-        </head>
-        <body>
-          <p>Qraft API is running. See /qr?text=... for usage.</p>
-        </body>
-        </html>
-      `);
-    });
-
-    // Explicit favicon route
     this.app.get('/favicon.ico', (req, res) => {
       res.sendFile(path.join(__dirname, '../public/logo.svg'));
     });
@@ -52,9 +46,15 @@ class App {
     this.app.use('/qr', qrRoutes);
   }
 
+  /**
+   * Configures the global error handling middleware.
+   */
   private setupErrorHandlers(): void {
     this.app.use(errorHandler);
   }
 }
 
+/**
+ * Exported instance of the Express application.
+ */
 export default new App().app;

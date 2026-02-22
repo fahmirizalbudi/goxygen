@@ -1,8 +1,10 @@
 import app from './app';
 
 /**
- * Server entry point.
- * Starts the Express application on the configured port.
+ * Entry point for the QR Code Generator API.
+ * Initializes the server and starts listening on the specified port.
+ * 
+ * @public
  */
 const port = process.env.PORT || 3000;
 

@@ -1,10 +1,22 @@
 import { Request, Response, NextFunction } from 'express';
 import { qrService } from '../services/qr.service';
 
+/**
+ * Controller class to handle QR code related HTTP requests.
+ * 
+ * @public
+ */
 export class QRController {
   /**
-   * GET /qr?text=...
-   * Handles the request to generate a QR code for the provided text.
+   * Handles the GET request to generate a QR code for a given text.
+   * 
+   * @param req - The Express request object.
+   * @param res - The Express response object.
+   * @param next - The Express next function for error handling.
+   * @returns A promise that resolves when the response is sent.
+   * 
+   * @remarks
+   * Expects a 'text' query parameter. Returns a PNG image buffer.
    */
   public generateQR = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     const text = req.query.text as string;
@@ -20,37 +32,17 @@ export class QRController {
     try {
       const qrBuffer = await qrService.generateQRBuffer(text);
       
-      // If the request accepts HTML (e.g., from a browser), return a minimal page with SEO
-      if (req.accepts('html')) {
-        res.status(200).send(`
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-            <meta charset="UTF-8">
-            <title>Qraft | Generated QR for "${text}"</title>
-            <meta name="description" content="Generated QR Code for: ${text}">
-            <link rel="icon" type="image/svg+xml" href="/logo.svg">
-            <style>
-              body { display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #f1f5f9; }
-              img { max-width: 90%; background: white; padding: 1rem; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
-            </style>
-          </head>
-          <body>
-            <img src="data:image/png;base64,${qrBuffer.toString('base64')}" alt="QR Code for ${text}">
-          </body>
-          </html>
-        `);
-        return;
-      }
-
-      // Default response for standard API calls (curl, apps, etc.)
       res.setHeader('Content-Type', 'image/png');
+      res.setHeader('Cache-Control', 'public, max-age=3600');
+      
       res.send(qrBuffer);
     } catch (error) {
-      // Forward the error to the global error handling middleware
       next(error);
     }
   };
 }
 
+/**
+ * Exported instance of the QR controller.
+ */
 export const qrController = new QRController();
