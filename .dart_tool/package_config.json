@@ -26,12 +26,6 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "animations",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/animations-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "archive",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/archive-4.0.9",
       "packageUri": "lib/",
@@ -104,18 +98,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "connectivity_plus",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus-7.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
-      "name": "connectivity_plus_platform_interface",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_platform_interface-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
       "name": "convert",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/convert-3.1.2",
       "packageUri": "lib/",
@@ -134,28 +116,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "cupertino_icons",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "dart_jsonwebtoken",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/dart_jsonwebtoken-3.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "dbus",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/dbus-0.7.12",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "desktop_webview_window",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/desktop_webview_window-0.2.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
     },
     {
       "name": "ed25519_edwards",
@@ -168,12 +132,6 @@
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/email_validator-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "fake_async",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
     },
     {
       "name": "ffi",
@@ -204,12 +162,6 @@
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-6.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.8"
-    },
-    {
-      "name": "flutter_localizations",
-      "rootUri": "file:///C:/flutter/packages/flutter_localizations",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
     },
     {
       "name": "flutter_secure_storage",
@@ -248,30 +200,6 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "flutter_svg",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.2.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "flutter_test",
-      "rootUri": "file:///C:/flutter/packages/flutter_test",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "flutter_web_auth_2",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_web_auth_2-5.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
-      "name": "flutter_web_auth_2_platform_interface",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_web_auth_2_platform_interface-5.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
       "name": "flutter_web_plugins",
       "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
@@ -290,46 +218,10 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "google_fonts",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-6.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
       "name": "google_identity_services_web",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_identity_services_web-0.3.3+1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "google_sign_in",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in-7.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "google_sign_in_android",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_android-7.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "google_sign_in_ios",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_ios-6.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "google_sign_in_platform_interface",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_platform_interface-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "google_sign_in_web",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
     },
     {
       "name": "googleapis",
@@ -374,12 +266,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "intl",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.20.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
       "name": "io",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/io-1.0.5",
       "packageUri": "lib/",
@@ -390,24 +276,6 @@
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.2",
       "packageUri": "lib/",
       "languageVersion": "3.7"
-    },
-    {
-      "name": "leak_tracker",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.9",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
-      "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.9",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
-      "name": "leak_tracker_testing",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -452,18 +320,6 @@
       "languageVersion": "3.7"
     },
     {
-      "name": "nested",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/nested-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "nm",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/nm-0.5.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "node_preamble",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/node_preamble-2.0.2",
       "packageUri": "lib/",
@@ -486,12 +342,6 @@
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "path_parsing",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/path_parsing-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
     },
     {
       "name": "path_provider",
@@ -536,12 +386,6 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "pinput",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/pinput-6.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "platform",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
@@ -576,12 +420,6 @@
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/postgres-3.5.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "provider",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.1.5+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "pub_semver",
@@ -638,50 +476,14 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "serverpod_auth_core_client",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_core_client-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "serverpod_auth_core_flutter",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_core_flutter-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "serverpod_auth_core_server",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_core_server-3.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
-      "name": "serverpod_auth_idp_client",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_idp_client-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "serverpod_auth_idp_flutter",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_idp_flutter-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "serverpod_auth_idp_server",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_auth_idp_server-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "serverpod_client",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_client-3.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "serverpod_flutter",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/serverpod_flutter-3.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
@@ -734,28 +536,10 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "sign_in_with_apple",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple-7.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "sign_in_with_apple_platform_interface",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple_platform_interface-2.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
       "name": "sign_in_with_apple_server",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple_server-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
-    },
-    {
-      "name": "sign_in_with_apple_web",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/sign_in_with_apple_web-3.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
     },
     {
       "name": "sky_engine",
@@ -854,76 +638,10 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "url_launcher",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher-6.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "url_launcher_android",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.20",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "url_launcher_ios",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_ios-6.3.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "url_launcher_linux",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_linux-3.2.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "url_launcher_macos",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_macos-3.2.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "url_launcher_platform_interface",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_platform_interface-2.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "url_launcher_web",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.4.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "url_launcher_windows",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_windows-3.1.5",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "uuid",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.3",
       "packageUri": "lib/",
       "languageVersion": "3.0"
-    },
-    {
-      "name": "vector_graphics",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.19",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "vector_graphics_codec",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_codec-1.1.13",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "vector_graphics_compiler",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.19",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
     },
     {
       "name": "vector_math",
@@ -974,12 +692,6 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "window_to_front",
-      "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/window_to_front-0.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "xdg_directories",
       "rootUri": "file:///C:/Users/HP/AppData/Local/Pub/Cache/hosted/pub.dev/xdg_directories-1.1.0",
       "packageUri": "lib/",
@@ -1004,20 +716,8 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "qraft_client",
-      "rootUri": "../qraft_client",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
       "name": "qraft_server",
       "rootUri": "../qraft_server",
-      "packageUri": "lib/",
-      "languageVersion": "3.8"
-    },
-    {
-      "name": "qraft_flutter",
-      "rootUri": "../qraft_flutter",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     }
