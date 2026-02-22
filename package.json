@@ -2,8 +2,11 @@
   "name": "qraft",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +21,9 @@
   },
   "homepage": "https://github.com/fahmirizalbudi/qraft#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "@types/qrcode": "^1.5.6",
+    "express": "^5.2.1",
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
